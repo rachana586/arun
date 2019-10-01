@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T09:56:39.979Z",
+        "line": 34,
+        "name": "",
+        "description": "",
+        "id": "product-purchase;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101939846200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user search for the required product",
+            "match": {
+              "location": "casestudy_definestep.user_search_for_the_required_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8199374500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user clicks on Find Details",
+            "match": {
+              "location": "casestudy_definestep.user_clicks_on_Find_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8050782600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user clicks in Add To Cart",
+            "match": {
+              "location": "casestudy_definestep.user_clicks_in_Add_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5900880200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user shall be redirected to View Cart page",
+            "match": {
+              "location": "casestudy_definestep.user_shall_be_redirected_to_View_Cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "product purchase",
+    "description": "",
+    "id": "product-purchase",
+    "keyword": "Feature",
+    "uri": "file:casestudy_Feature/casestudy.feature",
+    "tags": []
+  }
+]
